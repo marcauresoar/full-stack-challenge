@@ -1,0 +1,30 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Account Statements</h3>
+  </div>
+  <div class="panel-body">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Date</th>
+          <th>Operation</th>
+          <th>Value</th>
+          <th>Balance</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr 
+          *ngFor="let statement of statements"
+          [class]="statement.value == 0 ? 'info' : statement.value > 0 ? 'success' : 'danger'"
+        >
+          <td>{{statement.id}}</td>
+          <td>{{statement.date | datePipe}}</td>
+          <td>{{statement.operation}}</td>
+          <td>{{statement.value | currency:'value'}}</td>
+          <td>{{statement.balance | currency:'balance'}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
