@@ -1,0 +1,108 @@
+[
+  {
+    "id": 111,
+    "agency": "001",
+    "number": "0234859",
+    "digit": "9",
+    "client": {
+      "name": "Joe Jackson",
+      "id": "165"
+    },
+    "statements": [
+      {
+        "id": 82354,
+        "date": "2018-05-28",
+        "operation": "Pagamento de boleto",
+        "value": -200.0,
+        "balance": 2000.0
+      },
+      {
+        "id": 82354,
+        "date": "2018-05-28",
+        "operation": "Pagamento de fornecedor",
+        "value": -200.0,
+        "balance": 2200.0
+      },
+      {
+        "id": 82352,
+        "date": "2018-05-25",
+        "operation": "Saldo em conta",
+        "value": 0,
+        "balance": 2400.0
+      },
+      {
+        "id": 82352,
+        "date": "2018-05-24",
+        "operation": "Depósito",
+        "value": 600.0,
+        "balance": 2400.0
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "agency": "002",
+    "number": "0234812",
+    "digit": "8",
+    "client": {
+      "name": "Jim Heimer",
+      "id": "453"
+    },
+    "statements": [
+      {
+        "id": 81155,
+        "date": "2018-05-27",
+        "operation": "Saque",
+        "value": -250.0,
+        "balance": 50.0
+      },
+      {
+        "id": 81154,
+        "date": "2018-05-26",
+        "operation": "Pagamento de fornecedor",
+        "value": -500.0,
+        "balance": 300.0
+      },
+      {
+        "id": 53154,
+        "date": "2018-05-24",
+        "operation": "Saldo em conta",
+        "value": 0,
+        "balance": 800.0
+      }
+    ]
+  },
+  {
+    "id": 333,
+    "agency": "001",
+    "number": "0994812",
+    "digit": "9",
+    "client": {
+      "name": "Airton James",
+      "id": "864"
+    },
+    "statements": [
+      {
+        "id": 78854,
+        "date": "2018-05-20",
+        "operation": "Depósito",
+        "value": 500.0,
+        "balance": 3000.0
+      },
+      {
+        "id": 15854,
+        "date": "2018-05-19",
+        "operation": "Depósito",
+        "value": 1500.0,
+        "balance": 2500.0
+      },
+      {
+        "id": 78144,
+        "date": "2018-05-18",
+        "operation": "Depósito",
+        "value": 1000.0,
+        "balance": 1000.0
+      }
+    ]
+  }
+]
